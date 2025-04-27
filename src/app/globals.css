@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 26, 26, 46;
+  --background-end-rgb: 17, 17, 31;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      rgb(var(--background-start-rgb)),
+      rgb(var(--background-end-rgb))
+    )
+    fixed;
+}
+
+@layer components {
+  .navbar-link {
+    @apply px-4 py-2 text-white font-medium hover:text-[#E94560] transition-colors;
+  }
+
+  .btn-primary {
+    @apply bg-[#E94560] text-white font-bold py-3 px-6 rounded-lg 
+     transition-all transform hover:scale-105
+    shadow-md hover:shadow-lg;
+  }
+
+  .page-title {
+    @apply text-3xl md:text-5xl font-bold text-white mb-6 uppercase tracking-wider text-center;
+  }
+
+  .card {
+    @apply bg-[#2b2b3e] rounded-lg p-6 border-2 border-[#533483] shadow-xl;
+  }
+
+  .animated-bg {
+    @apply before:absolute before:inset-0 before:bg-[radial-gradient(circle,_rgba(83,52,131,0.2)_1px,_transparent_1px)] 
+    before:bg-[length:20px_20px] relative overflow-hidden;
+  }
+}
+
+/* Animații pentru fundalul cu particule */
+.animated-bg::before {
+  animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Efect de gradient pentru texte speciale */
+.gradient-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(90deg, #e94560, #533483);
+  animation: gradient 3s ease infinite;
+  background-size: 200% auto;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
