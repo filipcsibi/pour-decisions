@@ -1,18 +1,19 @@
 export default function Terms() {
   return (
     <div className="max-w-4xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-      <h1 className="page-title">Terms & Conditions</h1>
+      <h1 className="page-title">Terms &amp; Conditions</h1>
       <div className="card prose prose-invert max-w-none">
         <div className="space-y-6 text-white opacity-90">
           <p className="text-lg">Last Updated: April 27, 2025</p>
 
           <section className="space-y-4">
             <p>
-              Welcome to Pour Decisions! These Terms & Conditions ("Terms")
-              govern your use of the Pour Decisions application and website
-              (collectively, the "Service"), which is owned and operated by
-              CSIBI FILIP PERSOANĂ FIZICĂ AUTORIZATĂ. By accessing or using the
-              Service, you agree to be bound by these Terms.
+              Welcome to Pour Decisions! These Terms &amp; Conditions
+              (&ldquo;Terms&rdquo;) govern your use of the Pour Decisions
+              application and website (collectively, the &ldquo;Service&rdquo;),
+              which is owned and operated by CSIBI FILIP PERSOANĂ FIZICĂ
+              AUTORIZATĂ. By accessing or using the Service, you agree to be
+              bound by these Terms.
             </p>
           </section>
 
@@ -93,12 +94,12 @@ export default function Terms() {
               6. Disclaimer of Warranties
             </h2>
             <p>
-              The Service is provided "as is" and "as available," without
-              warranties of any kind, whether express or implied. While we
-              strive to provide accurate and reliable content, we do not
-              guarantee the completeness, accuracy, or suitability of the
-              Service for any purpose. Use the Service at your own discretion
-              and risk.
+              The Service is provided &ldquo;as is&rdquo; and &ldquo;as
+              available,&rdquo; without warranties of any kind, whether express
+              or implied. While we strive to provide accurate and reliable
+              content, we do not guarantee the completeness, accuracy, or
+              suitability of the Service for any purpose. Use the Service at
+              your own discretion and risk.
             </p>
           </section>
 

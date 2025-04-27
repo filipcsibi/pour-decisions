@@ -47,9 +47,9 @@ export default function Privacy() {
               <li>
                 <strong>Affiliate:</strong> An entity that controls, is
                 controlled by, or is under common control with a party, where
-                "control" means ownership of 50% or more of the shares, equity
-                interest, or other securities entitled to vote for election of
-                directors or other managing authority.
+                &quot;control&quot; means ownership of 50% or more of the
+                shares, equity interest, or other securities entitled to vote
+                for election of directors or other managing authority.
               </li>
               <li>
                 <strong>Application:</strong> Refers to Pour Decisions, the
@@ -114,11 +114,11 @@ export default function Privacy() {
             <h4 className="text-lg font-medium">Usage Data</h4>
             <p>
               Usage Data is collected automatically when using the Service. This
-              may include information such as Your Device's Internet Protocol
-              address (e.g., IP address), browser type, browser version, the
-              pages of our Service that You visit, the time and date of Your
-              visit, the time spent on those pages, unique device identifiers,
-              and other diagnostic data.
+              may include information such as Your Device&apos;s Internet
+              Protocol address (e.g., IP address), browser type, browser
+              version, the pages of our Service that You visit, the time and
+              date of Your visit, the time spent on those pages, unique device
+              identifiers, and other diagnostic data.
             </p>
             <p>
               When You access the Service by or through a mobile device, We may
