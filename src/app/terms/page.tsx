@@ -139,14 +139,16 @@ export default function Terms() {
               7. Disclaimer and Limitation of Liability
             </h2>
             <ul className="list-disc pl-6 space-y-2">
-              <li>The app is provided "as is" without any warranties.</li>
+              <li>
+                The app is provided &quot;as is&quot; without any warranties.
+              </li>
               <li>
                 CSIBI FILIP PERSOANĂ FIZICĂ AUTORIZATĂ shall not be liable for
                 any damages resulting from your use of the app.
               </li>
               <li>
-                The app's content is for entertainment purposes only and should
-                not be taken as professional advice.
+                The app&apos;s content is for entertainment purposes only and
+                should not be taken as professional advice.
               </li>
               <li>
                 To the maximum extent permitted by law, our total liability for

@@ -12,10 +12,11 @@ export default function Privacy() {
               1. Introduction
             </h2>
             <p>
-              Pour Decisions ("we," "our," or "us") operated by CSIBI FILIP
-              PERSOANA FIZICA AUTORIZATA is committed to protecting your
-              privacy. This Privacy Policy explains how we collect, use, and
-              safeguard your information when you use our Service.
+              Pour Decisions (&quot;we,&quot; &quot;our,&quot; or
+              &quot;us&quot;) operated by CSIBI FILIP PERSOANA FIZICA AUTORIZATA
+              is committed to protecting your privacy. This Privacy Policy
+              explains how we collect, use, and safeguard your information when
+              you use our Service.
             </p>
           </section>
 
@@ -115,7 +116,7 @@ export default function Privacy() {
             <p>
               We may update this Privacy Policy from time to time. We will
               notify you of any changes by posting the new Privacy Policy and
-              updating the "Last updated" date.
+              updating the &quot;Last updated&quot; date.
             </p>
           </section>
 
