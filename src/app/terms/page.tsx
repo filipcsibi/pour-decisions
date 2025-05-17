@@ -4,82 +4,127 @@ export default function Terms() {
       <h1 className="page-title">Terms &amp; Conditions</h1>
       <div className="card prose prose-invert max-w-none">
         <div className="space-y-6 text-white opacity-90">
-          <p className="text-lg">Last Updated: April 27, 2025</p>
+          <p className="text-lg">Last Updated: 17/05/2025</p>
 
           <section className="space-y-4">
             <p>
-              Welcome to Pour Decisions! These Terms &amp; Conditions
-              (&ldquo;Terms&rdquo;) govern your use of the Pour Decisions
-              application and website (collectively, the &ldquo;Service&rdquo;),
-              which is owned and operated by CSIBI FILIP PERSOANĂ FIZICĂ
-              AUTORIZATĂ. By accessing or using the Service, you agree to be
-              bound by these Terms.
+              Welcome to Pour Decisions! By accessing or using the Service, you
+              agree to be bound by these Terms.
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-primary-pink">
-              1. Service Description
+              1. Subscription and Payments
+            </h2>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>
+                You can subscribe to this app to get access to premium features
+                and unlimited content.
+              </li>
+              <li>
+                Subscription options include: 1 month with 3 days of free trial,
+                1 month, 3 months and 1 year.
+              </li>
+              <li>All prices are subject to change without notification.</li>
+              <li>
+                We may offer promotional prices as incentives or limited-time
+                opportunities. We cannot offer price protection, retroactive
+                discounts, or refunds for previous purchases in the event of a
+                price reduction or promotional offering.
+              </li>
+              <li>
+                Payment will be charged to your iTunes or Play Store Account at
+                confirmation of purchase.
+              </li>
+            </ul>
+          </section>
+
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-primary-pink">
+              2. Subscription Management
+            </h2>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>
+                Subscriptions automatically renew unless auto-renew is turned
+                off at least 24-hours before the end of the current period.
+              </li>
+              <li>
+                Your account will be charged for renewal within 24-hours prior
+                to the end of the current period at the cost of the chosen
+                package.
+              </li>
+              <li>
+                You may manage subscriptions and turn off auto-renewal in your
+                iTunes or Play Store Account Settings after purchase.
+              </li>
+              <li>
+                No cancellation of the current subscription is allowed during
+                the active subscription period.
+              </li>
+              <li>
+                You may cancel a subscription during its free trial period via
+                the subscription settings through your iTunes or Play Store
+                account. This must be done 24 hours before the end of the
+                subscription period to avoid being charged.
+              </li>
+              <li>
+                Any unused portion of a free trial period will be forfeited when
+                you purchase a subscription.
+              </li>
+            </ul>
+          </section>
+
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-primary-pink">
+              3. Intellectual Property
             </h2>
             <p>
-              Pour Decisions is a card-based drinking game application designed
-              to enhance social gatherings through interactive games such as
-              Truth or Dare, Never Have I Ever, and more. The app provides
-              engaging content tailored to adult users.
+              The Pour Decisions app and all its content are owned by CSIBI
+              FILIP PERSOANĂ FIZICĂ AUTORIZATĂ and protected by copyright and
+              other intellectual property laws.
             </p>
           </section>
 
           <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-primary-pink">4. Privacy</h2>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>
+                Your use of the app is also governed by our Privacy Policy.
+              </li>
+              <li>
+                Please review our{" "}
+                <a href="#" className="text-primary-pink">
+                  Privacy Policy
+                </a>{" "}
+                to understand how we collect, use, and protect your information.
+              </li>
+            </ul>
+          </section>
+
+          <section className="space-y-4">
             <h2 className="text-2xl font-bold text-primary-pink">
-              2. User Information and Registration
+              5. User Information and Age Restriction
             </h2>
-            <p>
-              To use the Service, you may be required to register using your
-              email address or other credentials. By registering, you confirm
-              that the information provided is accurate and that you have the
-              right to use the Service. The Service is intended for users aged
-              18 or older. By accessing the Service, you represent that you meet
-              the age requirement.
-            </p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>
+                To use the Service, you may be required to register using your
+                email address or other credentials.
+              </li>
+              <li>
+                You confirm that the information provided is accurate and that
+                you have the right to use the Service.
+              </li>
+              <li>
+                The Service is intended for users aged 18 or older. By accessing
+                the Service, you represent that you meet this age requirement.
+              </li>
+            </ul>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-primary-pink">
-              3. Data Handling
-            </h2>
-            <p>
-              We collect and process personal and non-personal data during your
-              use of the Service to enhance your experience, manage
-              subscriptions, and improve functionality. This includes analytics
-              data, error tracking, and session information. Data collection and
-              processing are facilitated through third-party tools such as
-              Firebase, RevenueCat, and others, in compliance with our Privacy
-              Policy.
-            </p>
-            <p>
-              For detailed information on data handling, please review our{" "}
-              <a href="#" className="text-primary-pink">
-                Privacy Policy
-              </a>
-              .
-            </p>
-          </section>
-
-          <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-primary-pink">
-              4. Intellectual Property
-            </h2>
-            <p>
-              All content, including but not limited to text, graphics, logos,
-              and software, is owned by CSIBI FILIP PERSOANĂ FIZICĂ AUTORIZATĂ
-              and is protected by intellectual property laws. Unauthorized use
-              of the content is strictly prohibited.
-            </p>
-          </section>
-
-          <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-primary-pink">
-              5. Acceptable Use
+              6. Acceptable Use
             </h2>
             <p>
               You agree to use the Service solely for its intended purpose and
@@ -91,59 +136,39 @@ export default function Terms() {
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-primary-pink">
-              6. Disclaimer of Warranties
+              7. Disclaimer and Limitation of Liability
+            </h2>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>The app is provided "as is" without any warranties.</li>
+              <li>
+                CSIBI FILIP PERSOANĂ FIZICĂ AUTORIZATĂ shall not be liable for
+                any damages resulting from your use of the app.
+              </li>
+              <li>
+                The app's content is for entertainment purposes only and should
+                not be taken as professional advice.
+              </li>
+              <li>
+                To the maximum extent permitted by law, our total liability for
+                any claims related to the Service shall not exceed the amount
+                paid by you, if any, for accessing the Service.
+              </li>
+            </ul>
+          </section>
+
+          <section className="space-y-4">
+            <h2 className="text-2xl font-bold text-primary-pink">
+              8. Changes to Terms
             </h2>
             <p>
-              The Service is provided &ldquo;as is&rdquo; and &ldquo;as
-              available,&rdquo; without warranties of any kind, whether express
-              or implied. While we strive to provide accurate and reliable
-              content, we do not guarantee the completeness, accuracy, or
-              suitability of the Service for any purpose. Use the Service at
-              your own discretion and risk.
+              We may update these Terms of Use from time to time. Continued use
+              of the app after changes constitutes acceptance of the new terms.
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-primary-pink">
-              7. Amendments and Termination
-            </h2>
-            <p>
-              We reserve the right to update these Terms at any time. Continued
-              use of the Service after updates constitutes your agreement to the
-              revised Terms. If you wish to terminate your account, please
-              contact us at csibifilip777@gmail.com.
-            </p>
-          </section>
-
-          <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-primary-pink">
-              8. Limitation of Liability
-            </h2>
-            <p>
-              To the maximum extent permitted by law, CSIBI FILIP PERSOANĂ
-              FIZICĂ AUTORIZATĂ and its affiliates shall not be liable for any
-              indirect, incidental, special, or consequential damages arising
-              from your use of the Service. Our total liability for any claims
-              related to the Service shall not exceed the amount paid by you, if
-              any, for accessing the Service.
-            </p>
-          </section>
-
-          <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-primary-pink">
-              9. Payment Information
-            </h2>
-            <p>
-              Payments for subscription plans or in-app purchases are processed
-              through Apple Pay or Google Pay. Detailed information about
-              subscription plans, refunds, and cancellations is provided within
-              the app.
-            </p>
-          </section>
-
-          <section className="space-y-4">
-            <h2 className="text-2xl font-bold text-primary-pink">
-              10. Contact Information
+              9. Contact Information
             </h2>
             <p>
               For support or inquiries, please contact us at
@@ -153,7 +178,7 @@ export default function Terms() {
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-primary-pink">
-              11. Governing Law
+              10. Governing Law
             </h2>
             <p>
               These Terms are governed by the laws of Romania, without regard to
