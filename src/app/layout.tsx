@@ -7,9 +7,9 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Pour Decisions - The Ultimate Drinking Game App",
+  title: "SOTO - The Ultimate Drinking Game App",
   description:
-    "Pour Decisions is the ultimate drinking game app to spice up your pre-drinks with friends",
+    "SOTO is the ultimate drinking game app to spice up your pre-drinks with friends",
   keywords:
     "drinking game, party game, app, alcohol, pre-drinks, truth or dare",
 };

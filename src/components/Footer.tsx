@@ -6,9 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <span className="text-2xl font-bold gradient-text">
-              Pour Decisions
-            </span>
+            <span className="text-2xl font-bold gradient-text">SOTO</span>
             <p className="text-white opacity-70 mt-2 text-sm">
               The ultimate drinking game app
             </p>
@@ -86,7 +84,7 @@ export default function Footer() {
 
         <div className="mt-8 border-t border-gray-700 pt-6 text-center">
           <p className="text-white opacity-70 text-sm">
-            © {new Date().getFullYear()} Pour Decisions. All rights reserved.
+            © {new Date().getFullYear()} SOTO. All rights reserved.
           </p>
         </div>
       </div>

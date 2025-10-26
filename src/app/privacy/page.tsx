@@ -1,7 +1,7 @@
 export default function Privacy() {
   return (
     <div className="max-w-4xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-      <h1 className="page-title">Privacy Policy for Pour Decisions</h1>
+      <h1 className="page-title">Privacy Policy for SOTO</h1>
 
       <div className="card prose prose-invert max-w-none">
         <div className="space-y-6 text-white opacity-90">
@@ -12,11 +12,11 @@ export default function Privacy() {
               1. Introduction
             </h2>
             <p>
-              Pour Decisions (&quot;we,&quot; &quot;our,&quot; or
-              &quot;us&quot;) operated by CSIBI FILIP PERSOANA FIZICA AUTORIZATA
-              is committed to protecting your privacy. This Privacy Policy
-              explains how we collect, use, and safeguard your information when
-              you use our Service.
+              SOTO (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) operated
+              by CSIBI FILIP PERSOANA FIZICA AUTORIZATA is committed to
+              protecting your privacy. This Privacy Policy explains how we
+              collect, use, and safeguard your information when you use our
+              Service.
             </p>
           </section>
 
@@ -80,10 +80,10 @@ export default function Privacy() {
               Providers) to facilitate our Service, provide the Service on our
               behalf, perform Service-related services, or assist us in
               analyzing how our Service is used.
-              <ul className="list-disc pl-6 space-y-2">
-                <li>RevenueCat for in-app purchase management</li>
-              </ul>
             </p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>RevenueCat for in-app purchase management</li>
+            </ul>
           </section>
 
           <section className="space-y-4">

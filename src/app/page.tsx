@@ -5,7 +5,7 @@ export default function Home() {
         {/* Hero Section */}
         <div className="space-y-6">
           <h1 className="text-4xl sm:text-6xl font-extrabold tracking-wider uppercase">
-            <span className="block gradient-text">Pour Decisions</span>
+            <span className="block gradient-text">SOTO</span>
             <span className="block text-white text-3xl sm:text-4xl mt-3">
               The Ultimate Drinking Game App
             </span>
@@ -118,7 +118,7 @@ export default function Home() {
         {/* Call to Action */}
         <div className="pt-8 pb-12">
           <h2 className="text-2xl font-bold text-white mb-6">
-            Ready to make some Pour Decisions?
+            Ready to make some SOTO?
           </h2>
           <p className="text-white opacity-80 mb-8">
             Download the app now and transform your next party into an

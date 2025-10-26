@@ -8,8 +8,8 @@ export default function Terms() {
 
           <section className="space-y-4">
             <p>
-              Welcome to Pour Decisions! By accessing or using the Service, you
-              agree to be bound by these Terms.
+              Welcome to SOTO! By accessing or using the Service, you agree to
+              be bound by these Terms.
             </p>
           </section>
 
@@ -80,9 +80,9 @@ export default function Terms() {
               3. Intellectual Property
             </h2>
             <p>
-              The Pour Decisions app and all its content are owned by CSIBI
-              FILIP PERSOANĂ FIZICĂ AUTORIZATĂ and protected by copyright and
-              other intellectual property laws.
+              The SOTO app and all its content are owned by CSIBI FILIP PERSOANĂ
+              FIZICĂ AUTORIZATĂ and protected by copyright and other
+              intellectual property laws.
             </p>
           </section>
 
@@ -191,8 +191,8 @@ export default function Terms() {
           </section>
 
           <p>
-            By using Pour Decisions, you acknowledge that you have read,
-            understood, and agree to be bound by these Terms.
+            By using SOTO, you acknowledge that you have read, understood, and
+            agree to be bound by these Terms.
           </p>
         </div>
       </div>
